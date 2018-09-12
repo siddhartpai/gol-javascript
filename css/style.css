@@ -3,8 +3,8 @@
 }
 .gol-col{
     display:inline-block;
-    width:30px;
-    height:30px;
+    width:5px;
+    height:5px;
     border: 1px dotted black;
     background-color:grey;
 }
