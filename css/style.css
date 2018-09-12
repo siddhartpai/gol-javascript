@@ -1,0 +1,14 @@
+.gol-row{
+    display:block;
+}
+.gol-col{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    border: 1px dotted black;
+    background-color:grey;
+}
+
+.alive{
+    background-color: yellow;
+}
