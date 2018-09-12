@@ -10,5 +10,8 @@
 }
 
 .alive{
-    background-color: yellow;
+    background-color: green;
+}
+.dead{
+    background-color: grey;
 }

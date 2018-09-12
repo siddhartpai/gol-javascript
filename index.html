@@ -4,12 +4,14 @@
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <input type="text" id="size"/>
-            <div id="game-of-life"></div>
-            <div id="iteration-count">Number of iterations: <span id="iterationCount"></span></span></div>
-            <button id="initialize-grid">Initialize</button>
-            <button id="start-game-of-life">Start</button>
-            <button id="stop-game-of-life">Stop</button>
-            <script src="js/script.js"></script>
-        </body>
+        <input type="text" id="size" placeholder="Enter size"/>
+        <input type="checkbox" id="random"/>
+        <label for="random">Random ? </label>
+        <button id="initialize-grid">Initialize</button>
+        <div id="game-of-life"></div>
+        <div id="iteration-count">Number of iterations: <span id="generation-count"></span></span></div>
+        <button id="start-game-of-life">Start</button>
+        <button id="stop-game-of-life">Stop</button>
+        <script src="js/script.js"></script>
+    </body>
 </html>
